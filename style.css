@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    background-image: url(lenda.png);
+    background-size: cover;
+    color: gold;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 5px double rgb(0, 0, 0);
+    border-radius: 10px;
+    background-image: url(gstso.png);
+}
+
+label {
+    font-weight: bold;
+}
+
+.caixa {
+    margin: 0;
+    display: flex; /* define elemento como flexível*/
+    justify-content: center; /* alinhar os elementos filhos na direção do eixo transversal*/
+    align-items: center;/* alinha o elmeento filhos ao longo do eixo transversal*/
+    height: 100vh; /* o elemento vai ocuár 100% da altura da janela do navegador*/
+    flex-direction: column;/*  defina a direção do eixo principal*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type="text"],input[type="email"],input[type="tel"],input[type="mensagem"],textarea{
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color:#3d62dd ;
+    color: #f2f5f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d62dd;
+}
+
+head{
+    mask-image: url(gstso.png);
+}
